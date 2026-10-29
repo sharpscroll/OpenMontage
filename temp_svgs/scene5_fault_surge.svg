@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#fff5f5"/>
+  
+  <!-- Electrified Metal Chassis (Alert Red Glow) -->
+  <rect x="520" y="420" width="460" height="980" rx="36" fill="#fee2e2" stroke="#d7584d" stroke-width="14"/>
+  <text x="750" y="490" fill="#d7584d" font-family="Arial, sans-serif" font-weight="900" font-size="38" text-anchor="middle">⚡ LIVE VOLTAGE ON CASE ⚡</text>
+  
+  <!-- Source -->
+  <circle cx="180" cy="780" r="80" fill="#ffffff" stroke="#1b2e38" stroke-width="10"/>
+  <text x="180" y="792" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="44" text-anchor="middle">230V AC</text>
+  
+  <!-- Loose Live Wire touching Case -->
+  <path d="M180 700 V560 H600 L720 720" fill="none" stroke="#c86b43" stroke-width="26" stroke-linecap="round"/>
+  
+  <!-- Contact Spark Point -->
+  <circle cx="720" cy="720" r="50" fill="#ffe35a" stroke="#d7584d" stroke-width="10"/>
+  <circle cx="720" cy="720" r="24" fill="#ffffff"/>
+  
+  <!-- Earth Return Loop Carrying Massive Current -->
+  <path d="M750 1400 V1500 H180 V860" fill="none" stroke="#176e4e" stroke-width="26" stroke-linecap="round"/>
+  <path d="M750 1400 V1500 H180 V860" fill="none" stroke="#ffe35a" stroke-width="12" stroke-dasharray="32 18" stroke-linecap="round"/>
+  
+  <!-- Massive Fault Alert Badge -->
+  <g transform="translate(100, 1600)">
+    <rect x="0" y="0" width="880" height="140" rx="26" fill="#d7584d"/>
+    <text x="440" y="60" fill="#ffffff" font-family="Arial, sans-serif" font-weight="900" font-size="42" text-anchor="middle">HIGH FAULT CURRENT FLOWS</text>
+    <text x="440" y="110" fill="#ffe35a" font-family="Arial, sans-serif" font-weight="800" font-size="32" text-anchor="middle">SAFELY DIVERTED BACK THROUGH EARTH</text>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#faf9f4"/>
+  
+  <!-- Appliance Metal Enclosure boundary -->
+  <rect x="480" y="420" width="500" height="980" rx="36" fill="#f8fafc" stroke="#1b2e38" stroke-width="8" stroke-dasharray="16 12"/>
+  <text x="730" y="480" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="32" text-anchor="middle">WASHER METAL CHASSIS</text>
+  
+  <!-- AC Supply Source -->
+  <circle cx="180" cy="780" r="80" fill="#ffffff" stroke="#1b2e38" stroke-width="10"/>
+  <text x="180" y="792" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="44" text-anchor="middle">230V AC</text>
+  
+  <!-- Motor Load Inside Washer -->
+  <rect x="620" y="760" width="220" height="220" rx="36" fill="#ffffff" stroke="#1b2e38" stroke-width="10"/>
+  <circle cx="730" cy="870" r="70" fill="#e2e8f0" stroke="#1b2e38" stroke-width="6"/>
+  <text x="730" y="882" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="34" text-anchor="middle">MOTOR</text>
+  
+  <!-- Live Conductor Loop (Brown) -->
+  <path d="M180 700 V560 H620 V760" fill="none" stroke="#c86b43" stroke-width="22" stroke-linecap="round"/>
+  
+  <!-- Neutral Return Loop (Blue) -->
+  <path d="M840 870 H920 V1120 H180 V860" fill="none" stroke="#5a82a6" stroke-width="22" stroke-linecap="round"/>
+  
+  <!-- Current Flow Animated Indicator Dots -->
+  <path d="M180 700 V560 H620 V760" fill="none" stroke="#ffe35a" stroke-width="8" stroke-dasharray="28 20" stroke-linecap="round"/>
+  <path d="M840 870 H920 V1120 H180 V860" fill="none" stroke="#93c5fd" stroke-width="8" stroke-dasharray="28 20" stroke-linecap="round"/>
+  
+  <!-- Earth Conductor connected only to Chassis boundary -->
+  <path d="M480 920 H340 V1340 H180" fill="none" stroke="#176e4e" stroke-width="20" stroke-linecap="round"/>
+  <path d="M480 920 H340 V1340 H180" fill="none" stroke="#ffe35a" stroke-width="6" stroke-dasharray="18 18"/>
+  <circle cx="480" cy="920" r="18" fill="#ffe35a" stroke="#1b2e38" stroke-width="6"/>
+  
+  <!-- Earth Status Badge -->
+  <g transform="translate(140, 1420)">
+    <rect x="0" y="0" width="800" height="110" rx="22" fill="#ffffff" stroke="#176e4e" stroke-width="6"/>
+    <text x="400" y="70" fill="#176e4e" font-family="Arial, sans-serif" font-weight="900" font-size="40" text-anchor="middle">CURRENT IN EARTH = 0.00 AMPS</text>
+  </g>
+</svg>

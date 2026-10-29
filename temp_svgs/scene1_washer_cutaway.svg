@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#faf9f4"/>
+  
+  <!-- Outer Cabinet Outline -->
+  <rect x="120" y="320" width="840" height="1140" rx="48" fill="#f1f5f7" stroke="#1b2e38" stroke-width="12"/>
+  
+  <!-- Back panel service access cutaway -->
+  <rect x="180" y="440" width="720" height="960" rx="36" fill="#ffffff" stroke="#1b2e38" stroke-width="8" stroke-dasharray="16 12"/>
+  
+  <!-- Inner drum pulley and bearing housing -->
+  <circle cx="540" cy="800" r="280" fill="#f8fafc" stroke="#1b2e38" stroke-width="10"/>
+  <circle cx="540" cy="800" r="190" fill="#e2e8f0" stroke="#1b2e38" stroke-width="8"/>
+  <circle cx="540" cy="800" r="60" fill="#1b2e38"/>
+  
+  <!-- Drive Belt down to motor -->
+  <path d="M480 800 L440 1230 M600 800 L640 1230" stroke="#1b2e38" stroke-width="14" stroke-linecap="round"/>
+  
+  <!-- Motor at base -->
+  <rect x="410" y="1220" width="260" height="160" rx="24" fill="#cbd5e1" stroke="#1b2e38" stroke-width="10"/>
+  <rect x="460" y="1250" width="160" height="100" rx="14" fill="#1b2e38"/>
+  <text x="540" y="1312" fill="#ffffff" font-family="Arial, sans-serif" font-weight="900" font-size="34" text-anchor="middle">MOTOR</text>
+  
+  <!-- 3-Core Supply Cable entering bottom right -->
+  <path d="M960 1340 Q840 1340 760 1290" fill="none" stroke="#1b2e38" stroke-width="28" stroke-linecap="round"/>
+  
+  <!-- Live and Neutral going to motor -->
+  <path d="M760 1290 Q720 1270 670 1270" fill="none" stroke="#c86b43" stroke-width="12" stroke-linecap="round"/>
+  <path d="M760 1290 Q720 1310 670 1310" fill="none" stroke="#5a82a6" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Earth Conductor splitting off and bolting directly to chassis metal -->
+  <path d="M760 1290 Q820 1220 830 1100 Q840 980 840 880" fill="none" stroke="#176e4e" stroke-width="18" stroke-linecap="round"/>
+  <path d="M760 1290 Q820 1220 830 1100 Q840 980 840 880" fill="none" stroke="#ffe35a" stroke-width="6" stroke-linecap="round" stroke-dasharray="24 24"/>
+  
+  <!-- Earth Chassis Bolt Stud -->
+  <circle cx="840" cy="880" r="38" fill="#ffe35a" stroke="#1b2e38" stroke-width="8"/>
+  <circle cx="840" cy="880" r="16" fill="#1b2e38"/>
+  
+  <!-- High visibility callout badge -->
+  <g transform="translate(490, 480)">
+    <rect x="0" y="0" width="370" height="90" rx="18" fill="#ffffff" stroke="#176e4e" stroke-width="6"/>
+    <text x="185" y="58" fill="#176e4e" font-family="Arial, sans-serif" font-weight="900" font-size="36" text-anchor="middle">EARTH / GROUND</text>
+  </g>
+  <path d="M675 570 Q750 680 820 840" fill="none" stroke="#176e4e" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="820" cy="840" r="12" fill="#ffe35a" stroke="#176e4e" stroke-width="4"/>
+</svg>

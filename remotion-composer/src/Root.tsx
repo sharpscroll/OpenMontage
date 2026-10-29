@@ -16,6 +16,11 @@ import { ProductReveal, ProductRevealProps } from "./components/ProductReveal";
 import { CaptionOverlay, WordCaption } from "./components/CaptionOverlay";
 import { CollageBurst, CollageBurstProps } from "./CollageBurst";
 import { LyricOverlay, LyricOverlayProps } from "./LyricOverlay";
+import { Q61Short } from "./Q61Short";
+import { SandSimulation } from "./SandSimulation";
+import { LightningConductor } from "./LightningConductor";
+import { LightningExplainer25D } from "./LightningExplainer25D";
+import { LightningExplainerAudited } from "./LightningExplainerAudited";
 
 // ---------------------------------------------------------------------------
 // Theme System — prevents every video from looking like dark fintech
@@ -329,6 +334,46 @@ export const Root: React.FC = () => {
           fadeOutSeconds: 1.5,
           overlay: true,
         } as EndTagProps}
+      />
+      <Composition
+        id="Q61Short"
+        component={Q61Short}
+        durationInFrames={1014}
+        fps={24}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="SandSimulation"
+        component={SandSimulation}
+        durationInFrames={300}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="LightningConductor"
+        component={LightningConductor}
+        durationInFrames={600}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="LightningExplainer25D"
+        component={LightningExplainer25D}
+        durationInFrames={600}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="LightningExplainerAudited"
+        component={LightningExplainerAudited}
+        durationInFrames={600}
+        fps={30}
+        width={1920}
+        height={1080}
       />
     </>
   );

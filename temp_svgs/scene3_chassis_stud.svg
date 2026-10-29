@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#faf9f4"/>
+  
+  <!-- Large Metal Chassis Sheet in Background -->
+  <rect x="100" y="380" width="880" height="1100" rx="40" fill="#e2e8f0" stroke="#1b2e38" stroke-width="12"/>
+  <line x1="160" y1="460" x2="920" y2="460" stroke="#cbd5e1" stroke-width="6"/>
+  <line x1="160" y1="520" x2="920" y2="520" stroke="#cbd5e1" stroke-width="6"/>
+  <text x="540" y="580" fill="#475569" font-family="Arial, sans-serif" font-weight="900" font-size="44" text-anchor="middle">UNPAINTED CHASSIS STEEL</text>
+  
+  <!-- Ground Stud Assembly -->
+  <!-- Radiating target circles -->
+  <circle cx="540" cy="960" r="260" fill="none" stroke="#ffe35a" stroke-width="12" opacity="0.6"/>
+  <circle cx="540" cy="960" r="190" fill="none" stroke="#ffe35a" stroke-width="8" stroke-dasharray="24 16"/>
+  
+  <!-- Star Washer (toothed) -->
+  <circle cx="540" cy="960" r="140" fill="#94a3b8" stroke="#1b2e38" stroke-width="8"/>
+  
+  <!-- Brass Crimp Ring Lug -->
+  <circle cx="540" cy="960" r="100" fill="#f59e0b" stroke="#1b2e38" stroke-width="10"/>
+  <rect x="500" y="960" width="80" height="380" fill="#f59e0b" stroke="#1b2e38" stroke-width="8"/>
+  
+  <!-- Thick Earth Conductor running downwards -->
+  <rect x="480" y="1300" width="120" height="340" rx="30" fill="#176e4e" stroke="#1b2e38" stroke-width="10"/>
+  <path d="M540 1300 V1640" stroke="#ffe35a" stroke-width="32" stroke-dasharray="50 50"/>
+  
+  <!-- Center Hex Bolt Head -->
+  <polygon points="540,890 600,925 600,995 540,1030 480,995 480,925" fill="#334155" stroke="#1b2e38" stroke-width="8"/>
+  <circle cx="540" cy="960" r="24" fill="#ffe35a"/>
+  
+  <!-- Callout Label -->
+  <g transform="translate(180, 1680)">
+    <rect x="0" y="0" width="720" height="100" rx="20" fill="#ffffff" stroke="#1b2e38" stroke-width="6"/>
+    <text x="360" y="64" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="42" text-anchor="middle">METALLIC BOND TO CHASSIS</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#faf9f4"/>
+  
+  <!-- Card 1: Normal Power Duty -->
+  <g transform="translate(80, 360)">
+    <rect x="0" y="0" width="920" height="260" rx="30" fill="#ffffff" stroke="#c86b43" stroke-width="8"/>
+    <rect x="40" y="40" width="380" height="70" rx="14" fill="#c86b43"/>
+    <text x="230" y="88" fill="#ffffff" font-family="Arial, sans-serif" font-weight="900" font-size="36" text-anchor="middle">LIVE + NEUTRAL</text>
+    <text x="40" y="170" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="46">Runs the Machine</text>
+    <text x="40" y="220" fill="#475569" font-family="Arial, sans-serif" font-weight="700" font-size="32">Closed loop carrying 100% of motor current.</text>
+  </g>
+  
+  <!-- Card 2: Protection Duty -->
+  <g transform="translate(80, 680)">
+    <rect x="0" y="0" width="920" height="260" rx="30" fill="#ffffff" stroke="#176e4e" stroke-width="8"/>
+    <rect x="40" y="40" width="380" height="70" rx="14" fill="#176e4e"/>
+    <text x="230" y="88" fill="#ffffff" font-family="Arial, sans-serif" font-weight="900" font-size="36" text-anchor="middle">EARTH / GROUND</text>
+    <text x="40" y="170" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="46">Protects the Person</text>
+    <text x="40" y="220" fill="#475569" font-family="Arial, sans-serif" font-weight="700" font-size="32">Safe bypass path ensuring the breaker trips.</text>
+  </g>
+  
+  <!-- Channel Signature Branding Box -->
+  <g transform="translate(80, 1060)">
+    <rect x="0" y="0" width="920" height="420" rx="36" fill="#ffffff" stroke="#1b2e38" stroke-width="8"/>
+    <text x="460" y="110" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="58" text-anchor="middle">CAUSE &amp; MOTION</text>
+    <text x="460" y="180" fill="#475569" font-family="Arial, sans-serif" font-weight="800" font-size="38" text-anchor="middle">Engineering Explained Visually</text>
+    
+    <!-- YouTube CTA Button -->
+    <rect x="220" y="240" width="480" height="110" rx="24" fill="#ffe35a" stroke="#1b2e38" stroke-width="6"/>
+    <text x="460" y="310" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="42" text-anchor="middle">SUBSCRIBE</text>
+  </g>
+</svg>

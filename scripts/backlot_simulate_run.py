@@ -94,6 +94,34 @@ def main() -> int:
     brief["topic"] = "The Last Lighthouse"
     cp("research", "completed", {"research_brief": brief})
 
+    # proposal gates: awaiting_human -> approved
+    cp("proposal", "in_progress", {})
+    prop = sample_artifact("proposal_packet")
+    dec_log = {
+        "version": "1.0",
+        "project_id": pid,
+        "decisions": [
+            {
+                "decision_id": "d-001",
+                "stage": "proposal",
+                "category": "concept_selection",
+                "subject": "Concept for The Last Lighthouse",
+                "options_considered": [
+                    {"option_id": "c1", "label": "Concept 1", "score": 0.9, "reason": "Strongest dramatic pacing"},
+                    {"option_id": "c2", "label": "Concept 2", "score": 0.7, "reason": "Slower build"},
+                    {"option_id": "c3", "label": "Concept 3", "score": 0.6, "reason": "Alternative mood"}
+                ],
+                "selected": "c1",
+                "reason": "Strongest dramatic pacing",
+            }
+        ],
+    }
+    save_artifact("proposal_packet", prop)
+    save_artifact("decision_log", dec_log)
+    cp("proposal", "awaiting_human", {"proposal_packet": prop, "decision_log": dec_log})
+    time.sleep(wait)
+    cp("proposal", "completed", {"proposal_packet": prop, "decision_log": dec_log}, human_approved=True)
+
     # script gates: awaiting_human -> approved
     cp("script", "in_progress", {})
     save_artifact("script", art["script"])

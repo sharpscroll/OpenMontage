@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#faf9f4"/>
+  
+  <!-- Metal Case Wall at Right -->
+  <rect x="760" y="380" width="180" height="1100" rx="24" fill="#94a3b8" stroke="#1b2e38" stroke-width="10"/>
+  <text x="850" y="960" fill="#ffffff" font-family="Arial, sans-serif" font-weight="900" font-size="44" text-anchor="middle" transform="rotate(-90 850 960)">METAL CASE</text>
+  
+  <!-- Generous Air Clearance Gap -->
+  <rect x="520" y="380" width="220" height="1100" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4" stroke-dasharray="16 12"/>
+  <text x="630" y="960" fill="#475569" font-family="Arial, sans-serif" font-weight="800" font-size="34" text-anchor="middle" transform="rotate(-90 630 960)">AIR GAP</text>
+  
+  <!-- Insulated Cable Structure -->
+  <!-- Outer Sheath (Grey) -->
+  <rect x="140" y="440" width="360" height="980" rx="60" fill="#cbd5e1" stroke="#1b2e38" stroke-width="10"/>
+  <text x="320" y="520" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="32" text-anchor="middle">OUTER SHEATH</text>
+  
+  <!-- Primary Insulation Layer (Brown PVC) -->
+  <rect x="200" y="580" width="240" height="740" rx="40" fill="#c86b43" stroke="#1b2e38" stroke-width="8"/>
+  <text x="320" y="660" fill="#ffffff" font-family="Arial, sans-serif" font-weight="900" font-size="30" text-anchor="middle">INSULATION</text>
+  
+  <!-- Bare Copper Core Carrying 230V -->
+  <rect x="260" y="730" width="120" height="500" rx="20" fill="#f59e0b" stroke="#1b2e38" stroke-width="8"/>
+  <text x="320" y="980" fill="#1b2e38" font-family="Arial, sans-serif" font-weight="900" font-size="32" text-anchor="middle" transform="rotate(-90 320 980)">LIVE (230V)</text>
+  
+  <!-- Bottom Safety Card -->
+  <g transform="translate(100, 1560)">
+    <rect x="0" y="0" width="880" height="110" rx="22" fill="#ffffff" stroke="#176e4e" stroke-width="6"/>
+    <text x="440" y="68" fill="#176e4e" font-family="Arial, sans-serif" font-weight="900" font-size="38" text-anchor="middle">INSULATION KEEPS VOLTAGE CONTAINED</text>
+  </g>
+</svg>
